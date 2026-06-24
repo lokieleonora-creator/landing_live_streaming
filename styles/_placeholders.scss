@@ -13,3 +13,12 @@
         stroke: v.$color_black;
     }
 }
+
+%hover-light {
+    transition: all 0.3s ease;
+    
+    &:hover {
+        opacity: 0.7;
+        // или любой другой эффект, который тебе нужен
+    }
+}
